@@ -14,11 +14,16 @@ body {
   font-size: 0.8em;
 }
 
-/* Shared classes */
+/* specific classes */
 
 .rounded-bg {
   border-radius: 50%;
   padding: 1px;
+}
+
+.country {
+  cursor: pointer;
+  margin-left: 1.5em;
 }
 
 /* Rules */
@@ -49,4 +54,26 @@ nav.navbar ul li a:hover {
 
 nav.navbar ul li a img:hover {
   background-color: rgb(224, 210, 210);
+}
+
+footer {
+  display: grid;
+  grid-template-rows: 35px 1fr;
+  position: fixed;
+  bottom: 0;
+}
+
+.links-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.links-wrapper ul {
+  list-style-type: none;
+}
+
+.links-wrapper ul li {
+  display: inline;
+  margin-right: 2em;
+  cursor: pointer;
 }
