@@ -100,7 +100,7 @@ main div.search_section input[type="text"] {
   border-radius: 50px;
   border: 1px solid rgb(211, 204, 204);
   outline: none;
-  background-image: url("../images/search.svg");
+  background-image: url("images/search.svg");
   background-repeat: no-repeat;
   background-position: 1.5em center;
 }
